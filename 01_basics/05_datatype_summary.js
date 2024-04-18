@@ -35,8 +35,34 @@ let myObj = {
 }
 
 // functions
-const my Function = myFunction(){
+const myFunction = Function()
+{
     console.log("Hello World");
 }
 
 console.log(typeof(bigNumber));
+
+
+
+// *******************************************************************************
+
+// stack (primitive), Heap (non-primitve)
+
+let myname = "mithilesh"
+
+let  another = myname
+another="mithi"
+
+console.log(myname);
+console.log(another);
+
+
+let userOne = {
+    email:"mith@gmail.com",
+    upi:"user@ybl"
+}
+ let userTwo = userOne
+
+ userTwo.email = "my@gmail.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
