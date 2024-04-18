@@ -66,3 +66,6 @@ let userOne = {
  userTwo.email = "my@gmail.com"
  console.log(userOne.email);
  console.log(userTwo.email);
+
+
+//  in this lecture we studied about how data are stored in the stack and heap
