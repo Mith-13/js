@@ -48,3 +48,33 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+// Destrucure of object
+const course = {
+    coursename:"js in hindi",
+    price: "999",
+    courseInstructor :"hitesh"
+}
+
+const {courseInstructor}=course
+
+console.log(courseInstructor);
+
+const {courseInstructor:Instructor} =  course
+console.log(Instructor);
+
+
+
+// //it is not object .api are in json form and key and value both are string character
+// {
+//     "name": "hitesh",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+// Json is only javascript notation hai
+// it is not necessary that api are in only object(with declaration) form it is also in array form which includes  other objects
+[
+    {},
+    {},
+    {}
+]
