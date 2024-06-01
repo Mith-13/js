@@ -1,3 +1,4 @@
+// There are two ways to declare object  .one is literal and other is constructor.
 // singleton => if we define as literal then it is not a singleton
 // constructor => it always makes a singleton object
 
