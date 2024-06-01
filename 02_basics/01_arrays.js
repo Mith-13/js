@@ -36,7 +36,7 @@ console.log("A",myArr);
 
 const myn1 = myArr.slice(1,3)
 console.log(myn1);
-console.log( "B",myArr);
+ console.log( "B",myArr);   // plice also include the range value while slice does notinclude the last value
 
 const myn2 = myArr.splice(1,3) //splice also manipukate the oriniginal array
 
